@@ -29,6 +29,14 @@ public class forma {
 		this.color = color;
 	}
 	
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
 	public void MoverForma(int x, int y) {
 		this.x = x;
 		this.y = y;
