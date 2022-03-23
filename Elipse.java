@@ -19,4 +19,9 @@ public class Elipse extends forma {
 		return (float)(Math.PI * (RM * Rm));
 	}
 
+	@Override
+	public float Perimetro() {
+		return 0;
+	}
+
 }

@@ -2,9 +2,9 @@ package Unidad3;
 
 public class rectangulo extends forma {
 
-	private int Lm;
-	private int LM;
-	public rectangulo(String nombre,int x, int y, int Lm, int LM) {
+	private float Lm;
+	private float LM;
+	public rectangulo(String nombre,int x, int y, float Lm, float LM) {
 		super("rojo", 4, 8, "RCT");
 		this.Lm = Lm;
 		this.LM = LM;
@@ -18,7 +18,7 @@ public class rectangulo extends forma {
 		return Lm * LM;
 	}
 	
-	public int Perimetro() {
+	public float Perimetro() {
 		return Lm*2 + LM*2;
 	}
 	

@@ -1,6 +1,6 @@
 package Unidad3;
 
-public class forma {
+public abstract class forma {
 	private String color;
 	private int x;
 	private int y;
@@ -20,6 +20,10 @@ public class forma {
 	public void Imprimir(){
 		System.out.println("Esto es una forma " + nombre + ", con " + x + " y " + y + " de medidas");
 	}
+	
+	public abstract float Perimetro();
+	
+	public abstract float Area();
 
 	public String getColor() {
 		return color;
