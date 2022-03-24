@@ -3,12 +3,12 @@ package Unidad3;
 public class circulo extends Elipse {
 
 	private float R;
-	public circulo(float R, int D, String nombre) {
+	public circulo(String Color, int x, int y, float R) {
 		this.R = R;
 	}
 
 	public circulo() {
-		this(0, 0, "");
+		this("", 0, 0, 0);
 	}
 	
 	public float Area() {

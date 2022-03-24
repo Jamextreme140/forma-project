@@ -25,7 +25,7 @@ public class AppForma {
 				        r.nextInt(200), r.nextInt(100));
 				break;
 			case 2:
-				vector[i] = new cuadrado(colores[r.nextInt(6)], r.nextInt(950), r.nextInt(700));
+				vector[i] = new cuadrado(colores[r.nextInt(6)], r.nextInt(950), r.nextInt(700), 0);
 				break;
 			
 			}
